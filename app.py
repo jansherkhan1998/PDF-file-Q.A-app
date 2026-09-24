@@ -15,7 +15,7 @@ st.set_page_config(page_title="RAG Document Assistant", page_icon="📚", layout
 # Configuration
 # -----------------------------
 # Using LLaMA 3.3 70B default (or swap with 'openai/gpt-oss-120b' if enabled on your Groq key)
-MODEL_NAME = "llama-3.3-70b-versatile" 
+MODEL_NAME = "openai/gpt-oss-120b" 
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 CHUNK_SIZE = 800
 CHUNK_OVERLAP = 120
